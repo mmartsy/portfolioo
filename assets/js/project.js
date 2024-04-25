@@ -2,8 +2,8 @@ const projects = [
   {
     id: 1,
     image: "assets/img/projects/Colour.jpg",
-    title: "Creative Website",
-    subtitle: "Website Design",
+    title: "Residential Apartment",
+    subtitle: "Interior Design",
     link: "project.html?id=1",
     details:
       "Within the confines of this studio apartment, you'll find two bedrooms, two bathrooms, a living room with an adjoining shared kitchen, a music studio, and a stunning terrace. Each space is adorned with a palette inspired by the lively and vibrant hues of summer. Upon observing the color schemes of the rooms, one can easily discern the essence of the summer season infused into each carefully chosen shade. <br/> In the child's room, a serene ambiance is curated through a blend of blue tones, soft yellow hues, and accents of gentle red. Enhanced by warm lighting, the space exudes tranquility and comfort, creating a cozy haven for rest and play.",
