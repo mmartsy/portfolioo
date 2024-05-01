@@ -62,8 +62,8 @@ const projects = [
     id: 5,
     images: [
       "./assets/img/projects/Cafe/Cafe1.jpg",
-      "./assets/img/projects/Cafe/Cafe2.jpg",
-      "./assets/img/projects/Cafe/Cafe3.jpg",
+      "./assets/img/projects/Cafe/cafe2.jpg",
+      "./assets/img/projects/Cafe/cafe3.jpg",
     ],
     title: "Cafe",
     subtitle: "Interior Design",
