@@ -72,8 +72,8 @@ const projects = [
       "In the nascent stages of my design journey, this café interior project holds a special place as one of my earliest endeavors. It represents not only a creative exploration but also a foundational step in my evolution as a designer. <br /><br /> Conceptualizing the integration of an indoor yard within a café setting challenged me to think innovatively and push the boundaries of traditional design norms <br /><br /> In my university years, this café interior project marked a significant milestone in my design education. It provided a platform for me to apply theoretical knowledge to real-world scenarios and hone my practical skills in interior design. <br /><br /> As one of my first major projects, it taught me invaluable lessons in project management, time allocation, and teamwork. Through research, experimentation, and feedback, I gained a deeper understanding of the multifaceted nature of design and its impact on individuals and communities. <br /><br /> Reflecting on this project now, I am grateful for the opportunities it provided for growth and learning. It instilled in me a sense of confidence and enthusiasm to pursue my passion for interior design with zeal and dedication. Looking ahead, I carry the lessons learned from this project as I continue to embark on new design endeavors and contribute to shaping inspiring spaces for the future",
     downloadFiles: [
       "./assets/Files/Cafe/Cafe1.png",
-      "./assets/Files/Cafe/Cafe2.png",
-      "./assets/Files/Cafe/Cafe3.png",
+      "./assets/Files/Cafe/cafe2.png",
+      "./assets/Files/Cafe/cafe3.png",
     ],
   },
   {
