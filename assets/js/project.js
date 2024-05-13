@@ -108,7 +108,7 @@ const projects = [
       "./assets/img/projects/GraphicDesign/wine2.jpg",
       "./assets/img/projects/GraphicDesign/wine3.jpg",
     ],
-    title: "Graphic Design Projects",
+    title: "Projects",
     subtitle: "Graphic Design",
     link: "project.html?id=7",
     details:
@@ -140,8 +140,8 @@ const projects = [
       "./assets/img/projects/MooodBoards/moodboard11.jpg",
       "./assets/img/projects/MooodBoards/moodboard12.jpg",
     ],
-    title: "Mood Boards",
-    subtitle: "Mood Board",
+    title: "Projects",
+    subtitle: "Mood Boards",
     link: "project.html?id=8",
     details:
       "I find great pleasure in curating interior moodboards and collages, a creative pursuit that brings me immense joy and a profound sense of tranquility Creating interior moodboards and collages is my cherished pursuit, bringing me profound joy and tranquility. Each meticulously curated board, whether for professional endeavors or personal projects, stands as a testament to my unwavering passion for design, serving as a visually captivating expression of my creativity and aesthetic sensibilities.",
@@ -160,6 +160,62 @@ const projects = [
       "./assets/Files/Moodboards/moodboard12.png",
     ],
   },
+  {
+    id: 9,
+    images: [
+      "./assets/img/projects/TechnicalDrawings/hall.jpg",
+      "./assets/img/projects/TechnicalDrawings/bedframe.jpg",
+      "./assets/img/projects/TechnicalDrawings/boywc.jpg",
+      "./assets/img/projects/TechnicalDrawings/furniturewithdimensions.jpg",
+      "./assets/img/projects/TechnicalDrawings/kidbed.jpg",
+      "./assets/img/projects/TechnicalDrawings/kidward2.jpg",
+      "./assets/img/projects/TechnicalDrawings/kidwarrd1.jpg",
+      "./assets/img/projects/TechnicalDrawings/laundry1.jpg",
+      "./assets/img/projects/TechnicalDrawings/laundry2.jpg",
+      "./assets/img/projects/TechnicalDrawings/office.jpg",
+      "./assets/img/projects/TechnicalDrawings/wc.jpg",
+    ],
+    title: "Projects",
+    subtitle: "Technical Drawings",
+    link: "project.html?id=9",
+    details:
+      "I&#39;m excited to share a glimpse into my professional journey through a diverse array of technical drawings, all meticulously crafted by my hand and stemming from my extensive work experience in interior design. These illustrations serve as tangible evidence of my technical skills and creative vision, showcasing my ability to transform spaces into functional and aesthetically pleasing environments. From detailed bathroom elevations to innovative wardrobe designs, practical laundry room layouts, and intricate floor plans, each drawing reflects my dedication and passion for excellence in every project undertaken",
+    downloadFiles: [
+      "./assets/Files/TechnicalDrawings/hall.jpg",
+      "./assets/Files/TechnicalDrawings/bedframe.jpg",
+      "./assets/Files/TechnicalDrawings/boywc.jpg",
+      "./assets/Files/TechnicalDrawings/furniturewithdimensions.jpg",
+      "./assets/Files/TechnicalDrawings/kidbed.jpg",
+      "./assets/Files/TechnicalDrawings/kidward2.jpg",
+      "./assets/Files/TechnicalDrawings/kidwarrd1.jpg",
+      "./assets/Files/TechnicalDrawings/laundry1.jpg",
+      "./assets/Files/TechnicalDrawings/laundry2.jpg",
+      "./assets/Files/TechnicalDrawings/office.jpg",
+      "./assets/Files/TechnicalDrawings/wc.jpg",
+    ],
+  },
+  {
+    id: 10,
+    images: [
+      "./assets/img/projects/ErgonomicPlanning/მარიამ-ბათაძე-61901-2.jpg",
+      "./assets/img/projects/ErgonomicPlanning/მარიამ-ბათაძე-61901-3.jpg",
+      "./assets/img/projects/ErgonomicPlanning/მარიამ-ბათაძე-61901-4.jpg",
+      "./assets/img/projects/ErgonomicPlanning/მარიამ-ბათაძე-61901-5.jpg",
+      "./assets/img/projects/ErgonomicPlanning/მარიამ-ბათაძე-61901-6.jpg",
+    ],
+    title: "Projects",
+    subtitle: "Ergonomic Planning",
+    link: "project.html?id=10",
+    details:
+      "During my second semester at university, delving into ergonomics was a true delight. Despite my limited proficiency with design software at the time, immersing myself in the process of crafting ergonomically sound spaces was incredibly rewarding. While initially challenging, I found myself gradually overcoming hurdles through persistent effort and thoughtful consideration. By the end, I felt a sense of accomplishment in my ability to effectively plan spaces that not only functioned optimally but also prioritized the comfort and well-being of their occupants. <br /><br/ > Designing a space to accommodate 40 students, including one wheelchair user, within a 60.6 square meter area presented a unique challenge and it was the first task. Balancing the needs for accessibility, comfort, and functionality required meticulous planning and innovative solutions. Despite the spatial constraints, I approached the task with creativity and precision, ensuring that every aspect of the design contributed to an inclusive and conducive learning environment for all students.",
+    downloadFiles: [
+      "./assets/Files/ErgonomicPlanning/მარიამ-ბათაძე-61901-2.pdf",
+      "./assets/Files/ErgonomicPlanning/მარიამ-ბათაძე-61901-3.pdf",
+      "./assets/Files/ErgonomicPlanning/მარიამ-ბათაძე-61901-4.pdf",
+      "./assets/Files/ErgonomicPlanning/მარიამ-ბათაძე-61901-5.pdf",
+      "./assets/Files/ErgonomicPlanning/მარიამ-ბათაძე-61901-6.pdf",
+    ],
+  },
 ];
 
 const urlParams = new URLSearchParams(window.location.search);
@@ -172,50 +228,46 @@ if (projectId) {
   appendSlides();
 }
 
-function downloadFiles(filesString, project_title) {
+async function downloadFiles(filesString, project_title) {
   const files = filesString.split(",");
-  const zip = new JSZip();
-  const promises = [];
 
-  files.forEach((filePath, index) => {
-    const trimmedFilePath = filePath.trim().replace(/^"(.*)"$/, "$1");
-    const filename = trimmedFilePath.substring(
-      trimmedFilePath.lastIndexOf("/") + 1
-    );
+  try {
+    const responses = await Promise.all(
+      files.map(async (filePath) => {
+        const trimmedFilePath = filePath.trim().replace(/^"(.*)"$/, "$1");
+        const filename = trimmedFilePath.substring(
+          trimmedFilePath.lastIndexOf("/") + 1
+        );
 
-    // Fetch each file and add it to the zip
-    const promise = fetch(trimmedFilePath)
-      .then((response) => {
+        const response = await fetch(trimmedFilePath);
         if (!response.ok) {
           throw new Error(`Failed to fetch ${trimmedFilePath}`);
         }
-        return response.blob();
+
+        const blob = await response.blob();
+        return { filename, blob };
       })
-      .then((blob) => {
-        zip.file(filename, blob);
-      })
-      .catch((error) => {
-        console.error(error);
-      });
+    );
 
-    promises.push(promise);
-  });
-
-  // After all files are fetched and added to the zip, generate the zip file
-  Promise.all(promises).then(() => {
-    zip.generateAsync({ type: "blob" }).then(function (blob) {
-      const link = document.createElement("a");
-      link.style.display = "none";
-
-      link.setAttribute("download", `project_files_${project_title}.zip`);
-      link.href = URL.createObjectURL(blob);
-
-      document.body.appendChild(link);
-      link.click();
-
-      document.body.removeChild(link);
+    const zip = new JSZip();
+    responses.forEach(({ filename, blob }) => {
+      zip.file(filename, blob);
     });
-  });
+
+    const zipBlob = await zip.generateAsync({ type: "blob" });
+
+    const link = document.createElement("a");
+    link.style.display = "none";
+    link.setAttribute("download", `project_files_${project_title}.zip`);
+    link.href = URL.createObjectURL(zipBlob);
+
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  } catch (error) {
+    console.error(error);
+    // Handle error gracefully, show a message to the user, etc.
+  }
 }
 
 function displayProjectDetails(projectId) {
@@ -263,7 +315,9 @@ function displayProjectDetails(projectId) {
       });
       projectDetails.innerHTML = `
       <div>
-        <h2 class='projectPage_title'>${project.title}</h2>
+        <h2 class='projectPage_title'>${
+          project.title === "Projects" ? project.subtitle : project.title
+        }</h2>
         <p class='projectPage_details'>${project.details}</p>
       </div>
       <div class="swiper-container-wrapper">
@@ -275,7 +329,9 @@ function displayProjectDetails(projectId) {
               <div class="swiper-button-prev"></div>
           </div>
         </div>
-        <button class="button download_project image_length_three" onclick="downloadFiles('${project.downloadFiles}', '${project.title}')">Download Project</button>
+        <button class="button download_project image_length_three" onclick="downloadFiles('${
+          project.downloadFiles
+        }', '${project.title}')">Download Project</button>
       `;
 
       let swiper = new Swiper(".swiper-container-secondary", {
