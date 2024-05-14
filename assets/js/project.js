@@ -2,7 +2,7 @@ const projects = [
   {
     id: 1,
     images: ["./assets/img/projects/Colour.jpg"],
-    title: "Residential Apartment",
+    title: "Residential Apartment (color and nature)",
     subtitle: "Interior Design",
     link: "project.html?id=1",
     details:
@@ -14,7 +14,7 @@ const projects = [
       "./assets/img/projects/Meditation/meditation1.jpg",
       "./assets/img/projects/Meditation/meditation2.jpg",
     ],
-    title: "Meditation",
+    title: "Meditation Center (Architecture)",
     subtitle: "Interior Design",
     link: "project.html?id=2",
     details:
@@ -31,7 +31,7 @@ const projects = [
       "./assets/img/projects/PH/PH-2.jpg",
       "./assets/img/projects/PH/PH-3.jpg",
     ],
-    title: "PH",
+    title: "Architecture Physics and Acoustics",
     subtitle: "Interior Design",
     link: "project.html?id=3",
     details:
@@ -48,7 +48,7 @@ const projects = [
       "./assets/img/projects/Furniture/Furniture1.jpg",
       "./assets/img/projects/Furniture/Furniture2.jpg",
     ],
-    title: "Furniture",
+    title: "Bank Furniture Design",
     subtitle: "Interior Design",
     link: "project.html?id=4",
     details:
@@ -65,7 +65,7 @@ const projects = [
       "./assets/img/projects/Cafe/cafe2.jpg",
       "./assets/img/projects/Cafe/cafe3.jpg",
     ],
-    title: "Cafe",
+    title: "Cafe Bar-Interior Design Project",
     subtitle: "Interior Design",
     link: "project.html?id=5",
     details:
@@ -84,7 +84,7 @@ const projects = [
       "./assets/img/projects/Winery/wine-3.jpg",
       "./assets/img/projects/Winery/wine-A1.jpg",
     ],
-    title: "Winery",
+    title: "Interior design project for Winery",
     subtitle: "Interior Design",
     link: "project.html?id=6",
     details:
@@ -99,11 +99,11 @@ const projects = [
   {
     id: 7,
     images: [
+      "./assets/img/projects/GraphicDesign/Wine_Bottle_with_Glass.jpg",
       "./assets/img/projects/GraphicDesign/graphic1.jpg",
       "./assets/img/projects/GraphicDesign/graphic2.jpg",
       "./assets/img/projects/GraphicDesign/graphic3.jpg",
       "./assets/img/projects/GraphicDesign/graphic4.jpg",
-      "./assets/img/projects/GraphicDesign/Wine_Bottle_with_Glass.jpg",
       "./assets/img/projects/GraphicDesign/wine1.jpg",
       "./assets/img/projects/GraphicDesign/wine2.jpg",
       "./assets/img/projects/GraphicDesign/wine3.jpg",
@@ -140,8 +140,8 @@ const projects = [
       "./assets/img/projects/MooodBoards/moodboard11.jpg",
       "./assets/img/projects/MooodBoards/moodboard12.jpg",
     ],
-    title: "Projects",
-    subtitle: "Mood Boards",
+    title: "MoodBoards",
+    subtitle: "Interior Design",
     link: "project.html?id=8",
     details:
       "I find great pleasure in curating interior moodboards and collages, a creative pursuit that brings me immense joy and a profound sense of tranquility Creating interior moodboards and collages is my cherished pursuit, bringing me profound joy and tranquility. Each meticulously curated board, whether for professional endeavors or personal projects, stands as a testament to my unwavering passion for design, serving as a visually captivating expression of my creativity and aesthetic sensibilities.",
@@ -175,8 +175,8 @@ const projects = [
       "./assets/img/projects/TechnicalDrawings/office.jpg",
       "./assets/img/projects/TechnicalDrawings/wc.jpg",
     ],
-    title: "Projects",
-    subtitle: "Technical Drawings",
+    title: "Technical Drawings",
+    subtitle: "Interior Design",
     link: "project.html?id=9",
     details:
       "I&#39;m excited to share a glimpse into my professional journey through a diverse array of technical drawings, all meticulously crafted by my hand and stemming from my extensive work experience in interior design. These illustrations serve as tangible evidence of my technical skills and creative vision, showcasing my ability to transform spaces into functional and aesthetically pleasing environments. From detailed bathroom elevations to innovative wardrobe designs, practical laundry room layouts, and intricate floor plans, each drawing reflects my dedication and passion for excellence in every project undertaken",
@@ -203,8 +203,8 @@ const projects = [
       "./assets/img/projects/ErgonomicPlanning/მარიამ-ბათაძე-61901-5.jpg",
       "./assets/img/projects/ErgonomicPlanning/მარიამ-ბათაძე-61901-6.jpg",
     ],
-    title: "Projects",
-    subtitle: "Ergonomic Planning",
+    title: "Ergonomic Planning",
+    subtitle: "Interior Design",
     link: "project.html?id=10",
     details:
       "During my second semester at university, delving into ergonomics was a true delight. Despite my limited proficiency with design software at the time, immersing myself in the process of crafting ergonomically sound spaces was incredibly rewarding. While initially challenging, I found myself gradually overcoming hurdles through persistent effort and thoughtful consideration. By the end, I felt a sense of accomplishment in my ability to effectively plan spaces that not only functioned optimally but also prioritized the comfort and well-being of their occupants. <br /><br/ > Designing a space to accommodate 40 students, including one wheelchair user, within a 60.6 square meter area presented a unique challenge and it was the first task. Balancing the needs for accessibility, comfort, and functionality required meticulous planning and innovative solutions. Despite the spatial constraints, I approached the task with creativity and precision, ensuring that every aspect of the design contributed to an inclusive and conducive learning environment for all students.",
