@@ -216,6 +216,228 @@ const projects = [
       "./assets/Files/ErgonomicPlanning/მარიამ-ბათაძე-61901-6.pdf",
     ],
   },
+
+  {
+    id: 11,
+    images: [
+      "./assets/img/projects/SpecificMaterials/3_page-0001.jpg",
+      "./assets/img/projects/SpecificMaterials/1_page-0001.jpg",
+      "./assets/img/projects/SpecificMaterials/2_page-0001.jpg",
+      "./assets/img/projects/SpecificMaterials/4_page-0001.jpg",
+      "./assets/img/projects/SpecificMaterials/5_page-0001.jpg",
+      "./assets/img/projects/SpecificMaterials/6_page-0001.jpg",
+      "./assets/img/projects/SpecificMaterials/7_page-0001.jpg",
+      "./assets/img/projects/SpecificMaterials/8_page-0001.jpg",
+      "./assets/img/projects/SpecificMaterials/9_page-0001.jpg",
+      "./assets/img/projects/SpecificMaterials/10_page-0001.jpg",
+      "./assets/img/projects/SpecificMaterials/11_page-0001.jpg",
+      "./assets/img/projects/SpecificMaterials/12_page-0001.jpg",
+      "./assets/img/projects/SpecificMaterials/13_page-0001.jpg",
+    ],
+    title: "Interior Design Project With Specific Materials",
+    subtitle: "Interior Design",
+    link: "project.html?id=11",
+    details:
+      "As part of a university assignment, I undertook a comprehensive space planning project that required meticulous attention to detail. This task encompassed everything from designing the layout of the space to selecting and placing furniture, crafting facade designs with specified materials, incorporating lighting fixtures, and even identifying locations for shops where clients could access various items. It was a holistic approach to interior design, demanding a deep understanding of spatial dynamics, aesthetic considerations, and practical functionality. Through this project, I gained invaluable experience in creating cohesive and well-executed designs that cater to the needs and preferences of clients",
+    downloadFiles: [
+      "./assets/Files/SpecificMaterials/3_page-0001.jpg",
+      "./assets/Files/SpecificMaterials/1_page-0001.jpg",
+      "./assets/Files/SpecificMaterials/2_page-0001.jpg",
+      "./assets/Files/SpecificMaterials/4_page-0001.jpg",
+      "./assets/Files/SpecificMaterials/5_page-0001.jpg",
+      "./assets/Files/SpecificMaterials/6_page-0001.jpg",
+      "./assets/Files/SpecificMaterials/7_page-0001.jpg",
+      "./assets/Files/SpecificMaterials/8_page-0001.jpg",
+      "./assets/Files/SpecificMaterials/9_page-0001.jpg",
+      "./assets/Files/SpecificMaterials/10_page-0001.jpg",
+      "./assets/Files/SpecificMaterials/11_page-0001.jpg",
+      "./assets/Files/SpecificMaterials/12_page-0001.jpg",
+      "./assets/Files/SpecificMaterials/13_page-0001.jpg",
+    ],
+  },
+
+  {
+    id: 12,
+    images: [
+      "./assets/img/projects/MultistoreyResidential/A1.jpg",
+      "./assets/img/projects/MultistoreyResidential/A3.jpg",
+    ],
+    title: "Multistorey Residential and Public Complex - Architecture Project",
+    subtitle: "Interior Design",
+    link: "project.html?id=12",
+    details:
+      "In the heart of Batumi, where the dynamic streets of Gorgiladze and Javakhishvili converge, stands our architectural endeavor. Embraced by the lively pulse of residential life, this edifice is a harmonious blend of functionality and elegance. Its ground and second levels are dedicated to vibrant commercial spaces, while the third floor invites residents and visitors alike to indulge in sporting pursuits within its meticulously designed hall. moving to the ninth floor unveils an ethereal exhibition space, serving as a connecting bridge between the two buildings. As for the residential aspect, each floor accommodates four apartments, following a typical layout.",
+    downloadFiles: [
+      "./assets/Files/MultistoreyResidential/A1.png",
+      "./assets/Files/MultistoreyResidential/A3.png",
+    ],
+  },
+
+  {
+    id: 13,
+    images: [
+      "./assets/img/projects/PersonalInteriorDesign/SMF_page-0001.jpg",
+      "./assets/img/projects/PersonalInteriorDesign/SMF_page-0002.jpg",
+      "./assets/img/projects/PersonalInteriorDesign/SMF_page-0003.jpg",
+      "./assets/img/projects/PersonalInteriorDesign/SMF_page-0004.jpg",
+      "./assets/img/projects/PersonalInteriorDesign/3.jpg",
+      "./assets/img/projects/PersonalInteriorDesign/4.jpg",
+      "./assets/img/projects/PersonalInteriorDesign/smf.jpg",
+    ],
+    title: "Personal Interior Design Ongoing Project",
+    subtitle: "Interior Design",
+    link: "project.html?id=13",
+    details:
+      "This project represents my personal exploration in interior design. I chose a real location in Tbilisi, Georgia, as my canvas, using it to develop and enhance my skills. It&#39;s a reflection of my creative journey and a way to push myself professionally. <br /><br /> Project allowed me to experiment with different concepts, materials, and layouts, pushing the boundaries of my creativity while also deepening my understanding of spatial dynamics and design principles. It was not only a testament to my passion for interior design but also a testament to my dedication to continuous growth and improvement in my craft.",
+    downloadFiles: [
+      "./assets/Files/PersonalInteriorDesign/3.jpg",
+      "./assets/Files/PersonalInteriorDesign/4.jpg",
+      "./assets/Files/PersonalInteriorDesign/smf.jpg",
+      "./assets/Files/PersonalInteriorDesign/SMF_page-0001.jpg",
+      "./assets/Files/PersonalInteriorDesign/SMF_page-0002.jpg",
+      "./assets/Files/PersonalInteriorDesign/SMF_page-0003.jpg",
+      "./assets/Files/PersonalInteriorDesign/SMF_page-0004.jpg",
+    ],
+  },
+
+  {
+    id: 14,
+    images: [
+      "./assets/img/projects/HandSketches/watercolor.jpg",
+      "./assets/img/projects/HandSketches/WhatsApp2.jpeg",
+      "./assets/img/projects/HandSketches/WhatsApp3.jpeg",
+      "./assets/img/projects/HandSketches/WhatsApp4.jpeg",
+      "./assets/img/projects/HandSketches/WhatsApp5.jpeg",
+      "./assets/img/projects/HandSketches/WhatsApp6.jpeg",
+      "./assets/img/projects/HandSketches/entourages.jpg",
+    ],
+    title: "Hand Sketches and Drawings",
+    subtitle: "Interior Design",
+    link: "project.html?id=14",
+    details: "",
+    downloadFiles: [
+      "./assets/Files/HandSketches/watercolor.png",
+      "./assets/Files/HandSketches/WhatsApp2.jpeg",
+      "./assets/Files/HandSketches/WhatsApp3.jpeg",
+      "./assets/Files/HandSketches/WhatsApp4.jpeg",
+      "./assets/Files/HandSketches/WhatsApp5.jpeg",
+      "./assets/Files/HandSketches/WhatsApp6.jpeg",
+      "./assets/Files/HandSketches/entourages.png",
+    ],
+  },
+
+  {
+    id: 15,
+    images: [
+      "./assets/img/projects/BedroomForBoy/23.jpg",
+      "./assets/img/projects/BedroomForBoy/boynew.jpg",
+      "./assets/img/projects/BedroomForBoy/new1.jpg",
+      "./assets/img/projects/BedroomForBoy/tv.jpg",
+      "./assets/img/projects/BedroomForBoy/1.jpg",
+      "./assets/img/projects/BedroomForBoy/2.jpg",
+      "./assets/img/projects/BedroomForBoy/3.jpg",
+    ],
+    title: "Visualization - Bedroom For Boy",
+    subtitle: "Interior Design",
+    link: "project.html?id=15",
+    details: "",
+    downloadFiles: [
+      "./assets/Files/BedroomForBoy/23.png",
+      "./assets/Files/BedroomForBoy/boynew.jpg",
+      "./assets/Files/BedroomForBoy/new1.jpg",
+      "./assets/Files/BedroomForBoy/tv.jpg",
+      "./assets/Files/BedroomForBoy/1.png",
+      "./assets/Files/BedroomForBoy/2.jpg",
+      "./assets/Files/BedroomForBoy/3.png",
+    ],
+  },
+
+  {
+    id: 16,
+    images: [
+      "./assets/img/projects/WCRenders/3.jpg",
+      "./assets/img/projects/WCRenders/1.jpg",
+      "./assets/img/projects/WCRenders/2.jpg",
+      "./assets/img/projects/WCRenders/4.jpg",
+      "./assets/img/projects/WCRenders/5.jpg",
+      "./assets/img/projects/WCRenders/6.jpg",
+    ],
+    title: "Visualization - WC Renders For Office",
+    subtitle: "Interior Design",
+    link: "project.html?id=16",
+    details: "",
+    downloadFiles: [
+      "./assets/Files/WCRenders/3.jpg",
+      "./assets/Files/WCRenders/1.jpg",
+      "./assets/Files/WCRenders/2.jpg",
+      "./assets/Files/WCRenders/4.jpg",
+      "./assets/Files/WCRenders/5.jpg",
+      "./assets/Files/WCRenders/6.jpg",
+    ],
+  },
+
+  {
+    id: 17,
+    images: [
+      "./assets/img/projects/BedroomKitchenRenders/02.jpg",
+      "./assets/img/projects/BedroomKitchenRenders/kitchenRender.jpg",
+    ],
+    title: "Visualization - Bedroom and Kitchen Renders",
+    subtitle: "Interior Design",
+    link: "project.html?id=17",
+    details: "",
+    downloadFiles: [
+      "./assets/Files/BedroomKitchenRenders/02.jpg",
+      "./assets/Files/BedroomKitchenRenders/kitchenRender.jpg",
+    ],
+  },
+
+  {
+    id: 18,
+    images: [
+      "./assets/img/projects/ExteriorRendering/1.jpg",
+      "./assets/img/projects/ExteriorRendering/35.jpg",
+    ],
+    title: "Exterior Rendering (Day/Night)",
+    subtitle: "Interior Design",
+    link: "project.html?id=18",
+    details: "",
+    downloadFiles: [
+      "./assets/Files/ExteriorRendering/1.jpg",
+      "./assets/Files/ExteriorRendering/35.jpg",
+    ],
+  },
+
+  {
+    id: 19,
+    images: [
+      "./assets/img/projects/AdditionalInteriorRenderings/finalrE.jpg",
+      "./assets/img/projects/AdditionalInteriorRenderings/1.jpg",
+      "./assets/img/projects/AdditionalInteriorRenderings/3.jpg",
+      "./assets/img/projects/AdditionalInteriorRenderings/4.jpg",
+      "./assets/img/projects/AdditionalInteriorRenderings/bathroom1.jpg",
+      "./assets/img/projects/AdditionalInteriorRenderings/bathroomFisheye.jpg",
+      "./assets/img/projects/AdditionalInteriorRenderings/bedr2.jpg",
+      "./assets/img/projects/AdditionalInteriorRenderings/bedr3.jpg",
+      "./assets/img/projects/AdditionalInteriorRenderings/focusTeapot.jpg",
+    ],
+    title: "Visualization - Additional Interior Renderings",
+    subtitle: "Interior Design",
+    link: "project.html?id=19",
+    details:
+      "Here are some visualizations and renders I&#39;ve crafted using 3ds Max and Corona Renderer. They offer a glimpse into my passion for bringing interior spaces to life through digital design",
+    downloadFiles: [
+      "./assets/Files/AdditionalInteriorRenderings/finalrE.png",
+      "./assets/Files/AdditionalInteriorRenderings/1.png",
+      "./assets/Files/AdditionalInteriorRenderings/3.jpg",
+      "./assets/Files/AdditionalInteriorRenderings/4.jpg",
+      "./assets/Files/AdditionalInteriorRenderings/bathroom1.jpg",
+      "./assets/Files/AdditionalInteriorRenderings/bathroomFisheye.jpg",
+      "./assets/Files/AdditionalInteriorRenderings/bedr2.jpg",
+      "./assets/Files/AdditionalInteriorRenderings/bedr3.jpg",
+      "./assets/Files/AdditionalInteriorRenderings/focusTeapot.png",
+    ],
+  },
 ];
 
 const urlParams = new URLSearchParams(window.location.search);
@@ -308,7 +530,11 @@ function displayProjectDetails(projectId) {
         }', '${project.title}')">Download Project</button>
 
       </div>`;
-    } else if (project.images.length >= 3 && project.id !== 6) {
+    } else if (
+      project.images.length >= 3 &&
+      project.id !== 6 &&
+      project.id !== 13
+    ) {
       let swiperSlides = "";
       project.images.forEach((image) => {
         swiperSlides += `<div class="swiper-slide"><img class="swiper-image" src="${image}" alt="${project.title}"></div>`;
@@ -335,7 +561,7 @@ function displayProjectDetails(projectId) {
       `;
 
       let swiper = new Swiper(".swiper-container-secondary", {
-        slidesPerView: 2,
+        slidesPerView: project.id === 13 ? 3 : 2,
         spaceBetween: 20,
         loop: true,
 
@@ -350,6 +576,7 @@ function displayProjectDetails(projectId) {
       });
     } else if (project.id === 6) {
       let swiperSlides = "";
+
       project.images.slice(0, 3).forEach((image) => {
         swiperSlides += `<div class="swiper-slide"><img class="swiper-image" src="${image}" alt="${project.title}"></div>`;
       });
@@ -378,6 +605,56 @@ function displayProjectDetails(projectId) {
 
       let swiper = new Swiper(".swiper-container-secondary", {
         slidesPerView: 1,
+        spaceBetween: 20,
+        loop: true,
+
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    } else if (project.id === 13) {
+      let swiperSlides = "";
+      let swiperSlides2 = "";
+
+      project.images.slice(0, 4).forEach((image) => {
+        swiperSlides += `<div class="swiper-slide"><img class="swiper-image" src="${image}" alt="${project.title}"></div>`;
+      });
+
+      project.images.slice(4, 7).forEach((image) => {
+        swiperSlides2 += `<div class="swiper-slide"><img class="swiper-image" src="${image}" alt="${project.title}"></div>`;
+      });
+      projectDetails.innerHTML = `
+      <div class="project_container">
+        <div>
+          <h2 class='projectPage_title'>${project.title}</h2>
+          <p class='projectPage_details'>${project.details}</p>
+        </div>
+      </div>
+      <div class="swiper-container-wrapper">
+          <div class="swiper-container-secondary">
+              <div class="swiper-wrapper">
+                  ${swiperSlides}
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+
+        <div class="swiper-container-wrapper">
+        <div class="swiper-container-secondary">
+            <div class="swiper-wrapper">
+                ${swiperSlides2}
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+        <button class="button download_project" onclick="downloadFiles('${project.downloadFiles}', '${project.title}')">Download Project</button>
+      `;
+
+      let swiper = new Swiper(".swiper-container-secondary", {
+        slidesPerView: 2,
         spaceBetween: 20,
         loop: true,
 
