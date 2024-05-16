@@ -890,11 +890,11 @@ body.dark-theme {
   color: var(--first-color); /* Change arrow color to red */
 }
 
-.swiper-button-prev,
-.swiper-button-next {
+.swiper-container .swiper-button-prev,
+.swiper-container .swiper-button-next {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 44%;
+  transform: translateY(-44%);
   z-index: 10;
   cursor: pointer;
 }
