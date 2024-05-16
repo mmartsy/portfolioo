@@ -438,6 +438,26 @@ const projects = [
       "./assets/Files/AdditionalInteriorRenderings/focusTeapot.png",
     ],
   },
+
+  {
+    id: 20,
+    images: [
+      "./assets/img/projects/MaterBathroomRenders/master1.jpg",
+      "./assets/img/projects/MaterBathroomRenders/main.jpg",
+      "./assets/img/projects/MaterBathroomRenders/shower.jpg",
+      "./assets/img/projects/MaterBathroomRenders/washbasins.jpg",
+    ],
+    title: "Mater Bathroom Renders",
+    subtitle: "Interior Design",
+    link: "project.html?id=20",
+    details: "",
+    downloadFiles: [
+      "./assets/Files/MaterBathroomRenders/master1.jpg",
+      "./assets/Files/MaterBathroomRenders/main.jpg",
+      "./assets/Files/MaterBathroomRenders/shower.jpg",
+      "./assets/Files/MaterBathroomRenders/washbasins.jpg",
+    ],
+  },
 ];
 
 const urlParams = new URLSearchParams(window.location.search);
