@@ -555,7 +555,7 @@ function displayProjectDetails(projectId) {
       `;
 
       let swiper = new Swiper(".swiper-container-secondary", {
-        slidesPerView: project.id === 13 ? 3 : 2,
+        slidesPerView: getSlidesPerViewForTwo(),
         spaceBetween: 20,
         loop: true,
 
@@ -566,8 +566,13 @@ function displayProjectDetails(projectId) {
       });
 
       window.addEventListener("resize", () => {
+        swiper.params.slidesPerView = getSlidesPerViewForTwo();
         swiper.update();
       });
+
+      function getSlidesPerViewForTwo() {
+        return window.innerWidth >= 768 ? 2 : 1;
+      }
     } else if (project.id === 6) {
       let swiperSlides = "";
 
@@ -648,7 +653,7 @@ function displayProjectDetails(projectId) {
       `;
 
       let swiper = new Swiper(".swiper-container-secondary", {
-        slidesPerView: 2,
+        slidesPerView: getSlidesPerViewForThree(),
         spaceBetween: 20,
         loop: true,
 
@@ -657,6 +662,15 @@ function displayProjectDetails(projectId) {
           prevEl: ".swiper-button-prev",
         },
       });
+
+      window.addEventListener("resize", () => {
+        swiper.params.slidesPerView = getSlidesPerViewForThree();
+        swiper.update();
+      });
+
+      function getSlidesPerViewForThree() {
+        return window.innerWidth >= 768 ? 2 : 1;
+      }
     }
   } else {
     projectDetails.innerHTML = "<p>Project not found.</p>";
