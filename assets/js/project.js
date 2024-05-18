@@ -303,32 +303,6 @@ const projects = [
   {
     id: 14,
     images: [
-      "./assets/img/projects/HandSketches/watercolor.jpg",
-      "./assets/img/projects/HandSketches/WhatsApp2.jpeg",
-      "./assets/img/projects/HandSketches/WhatsApp3.jpeg",
-      "./assets/img/projects/HandSketches/WhatsApp4.jpeg",
-      "./assets/img/projects/HandSketches/WhatsApp5.jpeg",
-      "./assets/img/projects/HandSketches/WhatsApp6.jpeg",
-      "./assets/img/projects/HandSketches/entourages.jpg",
-    ],
-    title: "Hand Sketches and Drawings",
-    subtitle: "Interior Design",
-    link: "project.html?id=14",
-    details: "",
-    downloadFiles: [
-      "./assets/Files/HandSketches/watercolor.png",
-      "./assets/Files/HandSketches/WhatsApp2.jpeg",
-      "./assets/Files/HandSketches/WhatsApp3.jpeg",
-      "./assets/Files/HandSketches/WhatsApp4.jpeg",
-      "./assets/Files/HandSketches/WhatsApp5.jpeg",
-      "./assets/Files/HandSketches/WhatsApp6.jpeg",
-      "./assets/Files/HandSketches/entourages.png",
-    ],
-  },
-
-  {
-    id: 15,
-    images: [
       "./assets/img/projects/BedroomForBoy/23.jpg",
       "./assets/img/projects/BedroomForBoy/boynew.jpg",
       "./assets/img/projects/BedroomForBoy/new1.jpg",
@@ -339,7 +313,7 @@ const projects = [
     ],
     title: "Visualization - Bedroom For Boy",
     subtitle: "Interior Design",
-    link: "project.html?id=15",
+    link: "project.html?id=14",
     details: "",
     downloadFiles: [
       "./assets/Files/BedroomForBoy/23.png",
@@ -353,7 +327,7 @@ const projects = [
   },
 
   {
-    id: 16,
+    id: 15,
     images: [
       "./assets/img/projects/WCRenders/3.jpg",
       "./assets/img/projects/WCRenders/1.jpg",
@@ -364,7 +338,7 @@ const projects = [
     ],
     title: "Visualization - WC Renders For Office",
     subtitle: "Interior Design",
-    link: "project.html?id=16",
+    link: "project.html?id=15",
     details: "",
     downloadFiles: [
       "./assets/Files/WCRenders/3.jpg",
@@ -377,14 +351,14 @@ const projects = [
   },
 
   {
-    id: 17,
+    id: 16,
     images: [
       "./assets/img/projects/BedroomKitchenRenders/02.jpg",
       "./assets/img/projects/BedroomKitchenRenders/kitchenRender.jpg",
     ],
     title: "Visualization - Bedroom and Kitchen Renders",
     subtitle: "Interior Design",
-    link: "project.html?id=17",
+    link: "project.html?id=16",
     details: "",
     downloadFiles: [
       "./assets/Files/BedroomKitchenRenders/02.jpg",
@@ -393,14 +367,14 @@ const projects = [
   },
 
   {
-    id: 18,
+    id: 17,
     images: [
       "./assets/img/projects/ExteriorRendering/1.jpg",
       "./assets/img/projects/ExteriorRendering/35.jpg",
     ],
     title: "Exterior Rendering (Day/Night)",
     subtitle: "Interior Design",
-    link: "project.html?id=18",
+    link: "project.html?id=17",
     details: "",
     downloadFiles: [
       "./assets/Files/ExteriorRendering/1.jpg",
@@ -409,7 +383,7 @@ const projects = [
   },
 
   {
-    id: 19,
+    id: 18,
     images: [
       "./assets/img/projects/AdditionalInteriorRenderings/finalrE.jpg",
       "./assets/img/projects/AdditionalInteriorRenderings/1.jpg",
@@ -423,7 +397,7 @@ const projects = [
     ],
     title: "Visualization - Additional Interior Renderings",
     subtitle: "Interior Design",
-    link: "project.html?id=19",
+    link: "project.html?id=18",
     details:
       "Here are some visualizations and renders I&#39;ve crafted using 3ds Max and Corona Renderer. They offer a glimpse into my passion for bringing interior spaces to life through digital design",
     downloadFiles: [
@@ -440,7 +414,7 @@ const projects = [
   },
 
   {
-    id: 20,
+    id: 19,
     images: [
       "./assets/img/projects/MasterBathroomRenders/master1.jpg",
       "./assets/img/projects/MasterBathroomRenders/main.jpg",
@@ -449,7 +423,7 @@ const projects = [
     ],
     title: "Master Bathroom Renders",
     subtitle: "Interior Design",
-    link: "project.html?id=20",
+    link: "project.html?id=19",
     details: "",
     downloadFiles: [
       "./assets/Files/MasterBathroomRenders/master1.jpg",
