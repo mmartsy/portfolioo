@@ -878,6 +878,7 @@ body.dark-theme {
 }
 
 .project_swiper {
+  margin: auto !important;
   overflow: hidden;
   margin-bottom: 50px;
 }
@@ -930,18 +931,14 @@ body.dark-theme {
   object-fit: cover;
 }
 @media screen and (max-width: 1150px) {
-  #project_page {
-    width: 820px;
-  }
-
+  #project_page,
   .project_swiper {
-    margin-inline: 10%;
+    max-width: 85%;
   }
 }
 
 @media screen and (max-width: 900px) {
   #project_page {
-    max-width: 70%;
     margin-top: 100px;
   }
 
@@ -977,12 +974,13 @@ body.dark-theme {
 }
 
 @media screen and (max-width: 600px) {
-  #project_page {
+  #project_page,
+  .project_swiper {
     max-width: 90%;
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
   .project_swiper {
     margin-inline: 1.5rem;
   }
