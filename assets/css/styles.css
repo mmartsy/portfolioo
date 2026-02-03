@@ -226,7 +226,9 @@ body.dark-theme {
   left: 0;
   background-color: transparent;
   z-index: var(--z-fixed);
-  transition: background-color 0.4s, box-shadow 0.4s;
+  transition:
+    background-color 0.4s,
+    box-shadow 0.4s;
 }
 
 .nav {
@@ -327,7 +329,9 @@ body.dark-theme {
   color: var(--white-color);
   font-weight: var(--font-semi-bold);
   padding: 1rem 2rem;
-  transition: background-color 0.4s, box-shadow 0.4s;
+  transition:
+    background-color 0.4s,
+    box-shadow 0.4s;
 }
 
 .button:hover {
@@ -503,7 +507,9 @@ body.dark-theme {
   opacity: 0;
   visibility: hidden;
   z-index: var(--z-modal);
-  transition: opacity 0.4s, visibility 0.4s;
+  transition:
+    opacity 0.4s,
+    visibility 0.4s;
 }
 
 .services__modal-content {
@@ -575,7 +581,9 @@ body.dark-theme {
   height: 350px;
   object-fit: cover;
   filter: grayscale(1);
-  transition: filter 0.5s, transform 0.5s;
+  transition:
+    filter 0.5s,
+    transform 0.5s;
 }
 
 .work__icon {
@@ -691,7 +699,9 @@ body.dark-theme {
   padding: 0.5rem 1.5rem;
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
-  transition: border-color 0.4s, background-color 0.4s;
+  transition:
+    border-color 0.4s,
+    background-color 0.4s;
 }
 
 .contact__input:focus {
@@ -699,7 +709,9 @@ body.dark-theme {
 }
 
 .contact__input:-webkit-autofill {
-  transition: background-color 6000s, color 6000s;
+  transition:
+    background-color 6000s,
+    color 6000s;
 }
 
 .contact__label {
@@ -829,7 +841,10 @@ body.dark-theme {
   font-size: 1.25rem;
   color: var(--title-color);
   z-index: var(--z-tooltip);
-  transition: bottom 0.4s, transform 0.4s, background-color 0.4s;
+  transition:
+    bottom 0.4s,
+    transform 0.4s,
+    background-color 0.4s;
 }
 
 .scrollUp:hover {
@@ -928,7 +943,7 @@ body.dark-theme {
 .swiper-container-secondary .swiper-image {
   flex-grow: 1;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 @media screen and (max-width: 1150px) {
   #project_page,
