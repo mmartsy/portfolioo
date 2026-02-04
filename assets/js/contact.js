@@ -11,7 +11,7 @@ const sendEmail = (e) => {
       "service_gy6k787",
       "template_e15yele",
       "#contact-form",
-      "0vuS392lKoTZcPOez"
+      "0vuS392lKoTZcPOez",
     )
     .then(
       () => {
@@ -29,7 +29,7 @@ const sendEmail = (e) => {
       () => {
         // Show error message
         contactMessage.textContent = "Message not sent (service error) ❌";
-      }
+      },
     );
 };
 

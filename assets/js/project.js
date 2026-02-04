@@ -6,7 +6,7 @@ const projects = [
     subtitle: "Interior Design",
     link: "project.html?id=1",
     details:
-      "Within the confines of this studio apartment, you'll find two bedrooms, two bathrooms, a living room with an adjoining shared kitchen, a music studio, and a stunning terrace. Each space is adorned with a palette inspired by the lively and vibrant hues of summer. Upon observing the color schemes of the rooms, one can easily discern the essence of the summer season infused into each carefully chosen shade. <br /> <br /> In the child's room, a serene ambiance is curated through a blend of blue tones, soft yellow hues, and accents of gentle red. Enhanced by warm lighting, the space exudes tranquility and comfort, creating a cozy haven for rest and play.",
+      "This apartment features two bedrooms, two bathrooms, a living room, a shared kitchen, a music studio, and a lovely terrace.Each space uses colors that remind one of summer's vivacious tones, carefully chosen to evoke a particular feeling.When looking at the room colors, it is clear that each selected shade captures the feeling of summer. <br /> The child's room features a calm atmosphere, established by blending blue tones, soft yellow hues, and small amounts of gentle red.With its warm lights, the space feels calm and cozy, offering a peaceful place for both rest and everyday activities.",
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const projects = [
     subtitle: "Interior Design",
     link: "project.html?id=2",
     details:
-      "For my bachelor&#39;s degree project, I chose to design a meditation center nestled near the serene Kakhisi Lake in the breathtaking landscapes of Georgia. Drawing inspiration from the tranquil surroundings, my vision is to create a space that harmonizes with nature and fosters deep contemplation and inner peace. Through mindful architectural elements, sustainable materials, and an integration of the natural environment, the center will offer a serene sanctuary for individuals seeking spiritual solace and introspection amidst the beauty of Kakhisi Lake. <br /> <br /> Within this project, the focal point is a magnificent meditation hall, designed to inspire serenity and inner reflection. Adjacent to it, lies a yoga studio, where individuals can find balance and harmony through physical practice. Additionally, there&#39;s a luxurious spa and rejuvenating sauna, offering spaces for relaxation and holistic well-being.  <br /> <br /> Nestled amidst the lush landscape are healing pools, providing a tranquil setting for renewal and restoration. For moments of communal enjoyment, there&#39;s an outdoor cinema under the starry skies, where visitors can gather and connect with nature in a unique way. With these diverse amenities and more, the meditation center near Kakhisi Lake promises a holistic sanctuary for mind, body, and soul.",
+      "For my bachelor's thesis project, I chose to design a meditation center nestled near the serene Kakhisi Lake in the breathtaking landscapes of Georgia.Based on the calm setting, I aim to design a space that fits well with the natural environment and supports quiet reflection and a sense of calm.By using mindful design choices, sustainable materials, and close attention to the surrounding landscape, the center is intended to provide a calm place for people to reflect and seek spiritual comfort near the natural setting of Kakhisi Lake. <br /> This project centers on a meditation hall designed to support calmness and quiet self-reflection.Next to it is a yoga studio where people work on balance and well-being through regular physical practice.There is also a high-end spa and a sauna, which provide dedicated spaces for relaxation and support overall well-being.",
     downloadFiles: [
       "./assets/Files/Meditation/meditation1.png",
       "./assets/Files/Meditation/meditation2.png",
@@ -126,7 +126,7 @@ const projects = [
     subtitle: "Interior Design",
     link: "project.html?id=8",
     details:
-      "I find great pleasure in curating interior moodboards and collages, a creative pursuit that brings me immense joy and a profound sense of tranquility Creating interior moodboards and collages is my cherished pursuit, bringing me profound joy and tranquility. Each meticulously curated board, whether for professional endeavors or personal projects, stands as a testament to my unwavering passion for design, serving as a visually captivating expression of my creativity and aesthetic sensibilities.",
+      "I enjoy making interior design moodboards and collages as part of my creative practice. It is a regular activity for me, and I find that it supports calm focus while I develop and communicate ideas about color, materials, and overall atmosphere.Each board I put together, whether for academic work or personal projects, reflects my interest in design and shows how I think about layout, color, and visual choices.",
     downloadFiles: [
       "./assets/Files/Moodboards/moodboard1.png",
       "./assets/Files/Moodboards/moodboard2.png",
@@ -165,7 +165,7 @@ const projects = [
     subtitle: "Interior Design",
     link: "project.html?id=9",
     details:
-      "I&#39;m excited to share a glimpse into my professional journey through a diverse array of technical drawings, all meticulously crafted by my hand and stemming from my extensive work experience in interior design. These illustrations serve as tangible evidence of my technical skills and creative vision, showcasing my ability to transform spaces into functional and aesthetically pleasing environments. From detailed bathroom elevations to innovative wardrobe designs, practical laundry room layouts, and intricate floor plans, each drawing reflects my dedication and passion for excellence in every project undertaken",
+      "This section presents a selection of technical drawings I produced by hand as part of my work in interior design. The drawings reflect the range of projects and tasks I have completed in professional practice.These illustrations provide clear evidence of my technical skills and design approach. They show how I can turn spaces into environments that work well in practice while still looking well planned and coherent.My portfolio includes bathroom elevation drawings, wardrobe designs, laundry room layouts, and floor plans, and each one shows my careful approach to drafting and my commitment to producing clear, accurate work for every project.",
     downloadFiles: [
       "./assets/Files/TechnicalDrawings/hall.jpg",
       "./assets/Files/TechnicalDrawings/bedframe.jpg",
@@ -197,7 +197,7 @@ const projects = [
     subtitle: "Interior Design",
     link: "project.html?id=10",
     details:
-      "During my second semester at university, delving into ergonomics was a true delight. Despite my limited proficiency with design software at the time, immersing myself in the process of crafting ergonomically sound spaces was incredibly rewarding. While initially challenging, I found myself gradually overcoming hurdles through persistent effort and thoughtful consideration. By the end, I felt a sense of accomplishment in my ability to effectively plan spaces that not only functioned optimally but also prioritized the comfort and well-being of their occupants. <br /><br/ > Designing a space to accommodate 40 students, including one wheelchair user, within a 60.6 square meter area presented a unique challenge and it was the first task. Balancing the needs for accessibility, comfort, and functionality required meticulous planning and innovative solutions. Despite the spatial constraints, I approached the task with creativity and precision, ensuring that every aspect of the design contributed to an inclusive and conducive learning environment for all students.",
+      "In my second semester at university, I found studying ergonomics genuinely enjoyable.Although I had only basic skills with design software at the time, I found it rewarding to work through the process of designing spaces that support comfort and ease of use.At first I found the task difficult, but with steady effort and careful reflection I was able to make progress over time.By the end, I felt I had achieved something: I could plan spaces that worked well and also supported the comfort and well-being of the people using them.The task is to plan a room that can seat 40 students, including one wheelchair user, within a 60-square-meter space. The layout should allow clear movement paths, accessible seating, and enough space for the instructor area and basic classroom needs",
     downloadFiles: [
       "./assets/Files/ErgonomicPlanning/მარიამ-ბათაძე-61901-2.pdf",
       "./assets/Files/ErgonomicPlanning/მარიამ-ბათაძე-61901-3.pdf",
@@ -228,7 +228,7 @@ const projects = [
     subtitle: "Interior Design",
     link: "project.html?id=11",
     details:
-      "As part of a university assignment, I undertook a comprehensive space planning project that required meticulous attention to detail. This task encompassed everything from designing the layout of the space to selecting and placing furniture, crafting facade designs with specified materials, incorporating lighting fixtures, and even identifying locations for shops where clients could access various items. It was a holistic approach to interior design, demanding a deep understanding of spatial dynamics, aesthetic considerations, and practical functionality. Through this project, I gained invaluable experience in creating cohesive and well-executed designs that cater to the needs and preferences of clients",
+      "For a university assignment, I completed a space planning project and focused closely on the details throughout the work.The work covered the full scope of the interior and exterior plan, including the spatial layout, furniture selection and placement, facade design using the required materials, and the placement of lighting fixtures. It also involved choosing shop locations so clients could obtain the items they needed.The project took an overall approach to interior design and required careful attention to spatial layout, visual style, and how the space would be used in daily life.This project gave me practical experience in producing coherent, well-executed designs based on clients’ needs and preferences.",
     downloadFiles: [
       "./assets/Files/SpecificMaterials/3_page-0001.jpg",
       "./assets/Files/SpecificMaterials/1_page-0001.jpg",
@@ -550,8 +550,8 @@ const projects = [
   {
     id: 22,
     images: [
-      "./assets/img/projects/LightingDesigninspiredbyamovieAmelie/renders.jpg",
       "./assets/img/projects/LightingDesigninspiredbyamovieAmelie/moodboard.jpg",
+      "./assets/img/projects/LightingDesigninspiredbyamovieAmelie/renders.jpg",
       "./assets/img/projects/LightingDesigninspiredbyamovieAmelie/tehcnicaldrawings2.jpg",
       "./assets/img/projects/LightingDesigninspiredbyamovieAmelie/sketches2.jpg",
       "./assets/img/projects/LightingDesigninspiredbyamovieAmelie/sketches.jpg",
@@ -563,8 +563,8 @@ const projects = [
     details:
       "The Assignment was to design a matching table, pendant, and floor lamp inspired by an art,movie or music and I chose Amélie because of its unique, nostalgic atmosphere, aiming to capture the same emotions—Satisfaction, Curiosity, and Joy—through a careful balance of color and light. My process began with a visual analysis of the film’s cinematography, focusing on its warm, saturated greens, deep reds, and golden tones. By creating a moodboard of these textures and palettes, I was able to translate the intimate 'glow' of the movie into a cohesive collection of functional objects that evoke a sense of warmth and wonder.",
     downloadFiles: [
-      "./assets/Files/LightingDesigninspiredbyamovieAmelie/renders.jpg",
       "./assets/Files/LightingDesigninspiredbyamovieAmelie/moodboard.jpg",
+      "./assets/Files/LightingDesigninspiredbyamovieAmelie/renders.jpg",
       "./assets/Files/LightingDesigninspiredbyamovieAmelie/tehcnicaldrawings2.jpg",
       "./assets/Files/LightingDesigninspiredbyamovieAmelie/sketches2.jpg",
       "./assets/Files/LightingDesigninspiredbyamovieAmelie/sketches.jpg",
@@ -628,9 +628,9 @@ const projects = [
   {
     id: 25,
     images: [
+      "./assets/img/projects/InteriorDesignprojectforhotelAmbasciatoriFlorenceItaly/16.png",
       "./assets/img/projects/InteriorDesignprojectforhotelAmbasciatoriFlorenceItaly/14.png",
       "./assets/img/projects/InteriorDesignprojectforhotelAmbasciatoriFlorenceItaly/15.png",
-      "./assets/img/projects/InteriorDesignprojectforhotelAmbasciatoriFlorenceItaly/16.png",
       "./assets/img/projects/InteriorDesignprojectforhotelAmbasciatoriFlorenceItaly/17.png",
       "./assets/img/projects/InteriorDesignprojectforhotelAmbasciatoriFlorenceItaly/18.png",
       "./assets/img/projects/InteriorDesignprojectforhotelAmbasciatoriFlorenceItaly/19.png",
@@ -653,9 +653,9 @@ const projects = [
       " For this project, I had an assignment at university to redesign the interior of Hotel Ambasciatori, which sits between two iconic Florentine landmarks: Alberti’s Santa Maria Novella and Michelucci’s train station. My concept, 'Stones in Motion,' acts as a bridge between these two eras—combining the Renaissance focus on grids and shadows with the Modernist focus on flow and light. I used arches as the primary design element to create rhythm and guide movement throughout the space. By translating heavy stone principles into fluid, modern forms, I aimed to create a hotel interior that feels both historical and alive.",
 
     downloadFiles: [
+      "./assets/Files/InteriorDesignprojectforhotelAmbasciatoriFlorenceItaly/16.png",
       "./assets/Files/InteriorDesignprojectforhotelAmbasciatoriFlorenceItaly/14.png",
       "./assets/Files/InteriorDesignprojectforhotelAmbasciatoriFlorenceItaly/15.png",
-      "./assets/Files/InteriorDesignprojectforhotelAmbasciatoriFlorenceItaly/16.png",
       "./assets/Files/InteriorDesignprojectforhotelAmbasciatoriFlorenceItaly/17.png",
       "./assets/Files/InteriorDesignprojectforhotelAmbasciatoriFlorenceItaly/18.png",
       "./assets/Files/InteriorDesignprojectforhotelAmbasciatoriFlorenceItaly/19.png",
