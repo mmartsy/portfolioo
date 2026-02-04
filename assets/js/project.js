@@ -564,6 +564,84 @@ const projects = [
       "./assets/Files/TheCoffeeAddressbranchinteriordesignproject/Ceiling.jpg",
     ],
   },
+
+  {
+    id: 22,
+    images: [
+      "./assets/img/projects/LightingDesigninspiredbyamovieAmelie/renders.jpg",
+      "./assets/img/projects/LightingDesigninspiredbyamovieAmelie/moodboard.jpg",
+      "./assets/img/projects/LightingDesigninspiredbyamovieAmelie/tehcnicaldrawings2.jpg",
+      "./assets/img/projects/LightingDesigninspiredbyamovieAmelie/sketches2.jpg",
+      "./assets/img/projects/LightingDesigninspiredbyamovieAmelie/sketches.jpg",
+      "./assets/img/projects/LightingDesigninspiredbyamovieAmelie/technicaldrawings1.jpg",
+    ],
+    title: "Lighting Design inspired by a movie ‘Amelie’s",
+    subtitle: "Interior Design",
+    link: "project.html?id=22",
+    details:
+      "The Assignment was to design a matching table, pendant, and floor lamp inspired by an art,movie or music and I chose Amélie because of its unique, nostalgic atmosphere, aiming to capture the same emotions—Satisfaction, Curiosity, and Joy—through a careful balance of color and light. My process began with a visual analysis of the film’s cinematography, focusing on its warm, saturated greens, deep reds, and golden tones. By creating a moodboard of these textures and palettes, I was able to translate the intimate 'glow' of the movie into a cohesive collection of functional objects that evoke a sense of warmth and wonder.",
+    downloadFiles: [
+      "./assets/Files/LightingDesigninspiredbyamovieAmelie/renders.jpg",
+      "./assets/Files/LightingDesigninspiredbyamovieAmelie/moodboard.jpg",
+      "./assets/Files/LightingDesigninspiredbyamovieAmelie/tehcnicaldrawings2.jpg",
+      "./assets/Files/LightingDesigninspiredbyamovieAmelie/sketches2.jpg",
+      "./assets/Files/LightingDesigninspiredbyamovieAmelie/sketches.jpg",
+      "./assets/Files/LightingDesigninspiredbyamovieAmelie/technicaldrawings1.jpg",
+    ],
+  },
+
+  {
+    id: 23,
+    images: [
+      "./assets/img/projects/OutdoorFurnituredesign/moodboard.jpg",
+      "./assets/img/projects/OutdoorFurnituredesign/renders.jpg",
+      "./assets/img/projects/OutdoorFurnituredesign/sketches.jpg",
+      "./assets/img/projects/OutdoorFurnituredesign/technicaldrawings.jpg",
+      "./assets/img/projects/OutdoorFurnituredesign/section.jpg",
+      "./assets/img/projects/OutdoorFurnituredesign/ergonomics.jpg",
+      "./assets/img/projects/OutdoorFurnituredesign/stackable.jpg",
+      "./assets/img/projects/OutdoorFurnituredesign/mockup.jpg",
+    ],
+    title: "Outdoor Furniture design",
+    subtitle: "Interior Design",
+    link: "project.html?id=23",
+    details:
+      "For this assignment, I designed an outdoor furniture set that includes a chair, a bench, and a coffee table. I wanted the pieces to look modern but still feel warm and comfortable. I used curved metal frames in a terracotta color to create a soft, continuous shape that stands out against the neutral cushions. The technical drawings show how I used simple, circular lines to make the furniture feel inviting and well-balanced for an outdoor space.To make sure the proportions and 'flow' of the set worked in real life, I built a physical mockup at a1:10 scale. This helped me test the circular shapes and ensure the set felt balanced and comfortable before finalizing the 3D renders.",
+    downloadFiles: [
+      "./assets/Files/OutdoorFurnituredesign/moodboard.jpg",
+      "./assets/Files/OutdoorFurnituredesign/renders.jpg",
+      "./assets/Files/OutdoorFurnituredesign/sketches.jpg",
+      "./assets/Files/OutdoorFurnituredesign/technicaldrawings.jpg",
+      "./assets/Files/OutdoorFurnituredesign/section.jpg",
+      "./assets/Files/OutdoorFurnituredesign/ergonomics.jpg",
+      "./assets/Files/OutdoorFurnituredesign/stackable.jpg",
+      "./assets/Files/OutdoorFurnituredesign/mockup.jpg",
+    ],
+  },
+
+  {
+    id: 24,
+    images: [
+      "./assets/img/projects/Freelanceinteriordesignproject(ongoing)/Technical.jpg",
+      "./assets/img/projects/Freelanceinteriordesignproject(ongoing)/plumbing.jpg",
+      "./assets/img/projects/Freelanceinteriordesignproject(ongoing)/Furniture.jpg",
+      "./assets/img/projects/Freelanceinteriordesignproject(ongoing)/Electricity.jpg",
+      "./assets/img/projects/Freelanceinteriordesignproject(ongoing)/Floorplan.jpg",
+    ],
+    title: "Freelance interior design project  (ongoing)",
+    subtitle: "Interior Design",
+    link: "project.html?id=24",
+    details:
+      "For this freelance project, I designed the interior layouts for an apartment in Batumi, Georgia. My main task was to organize the floor plan to make the best use of the available space while keeping it functional and comfortable. Beyond the furniture layout, I also created the electricity and plumbing plans to ensure all technical systems were properly integrated into the design. I focused on creating a natural flow between the rooms, ensuring the furniture placement and living areas worked perfectly for the apartment's specific size and shape.",
+
+    downloadFiles: [
+      "./assets/Files/Freelanceinteriordesignproject(ongoing)/Technical.jpg",
+      "./assets/Files/Freelanceinteriordesignproject(ongoing)/plumbing.jpg",
+      "./assets/Files/Freelanceinteriordesignproject(ongoing)/Furniture.jpg",
+      "./assets/Files/Freelanceinteriordesignproject(ongoing)/Electricity.jpg",
+      "./assets/Files/Freelanceinteriordesignproject(ongoing)/Floorplan.jpg",
+    ],
+  },
 ];
 
 const urlParams = new URLSearchParams(window.location.search);
