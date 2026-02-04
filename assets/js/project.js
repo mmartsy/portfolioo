@@ -25,24 +25,6 @@ const projects = [
     ],
   },
   {
-    id: 3,
-    images: [
-      "./assets/img/projects/PH/PH-1.jpg",
-      "./assets/img/projects/PH/PH-2.jpg",
-      "./assets/img/projects/PH/PH-3.jpg",
-    ],
-    title: "Architecture Physics and Acoustics",
-    subtitle: "Interior Design",
-    link: "project.html?id=3",
-    details:
-      "Integrating Physics, Shading, and Acoustics in Architectural Design",
-    downloadFiles: [
-      "./assets/Files/PH/PH-1.png",
-      "./assets/Files/PH/PH-2.png",
-      "./assets/Files/PH/PH-3.png",
-    ],
-  },
-  {
     id: 4,
     images: [
       "./assets/img/projects/Furniture/Furniture1.jpg",
